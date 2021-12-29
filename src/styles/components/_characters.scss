@@ -1,0 +1,26 @@
+.characters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4.5rem 0px;
+  background: rgb(36, 40, 47);
+  min-height: calc(50vh - 60px);
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1920px;
+}
+
+.characters-list {
+  width: 600px;
+  height: 220px;
+  display: flex;
+  overflow: hidden;
+  background: rgb(60, 62, 68);
+  border-radius: 0.5rem;
+  margin: 0.75rem;
+}

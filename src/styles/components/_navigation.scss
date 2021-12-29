@@ -1,0 +1,40 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+  a {
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+  }
+
+  .nav-active {
+    &::after {
+      content: "";
+      width: 85%;
+      height: 5px;
+      background-color: $color-1;
+      position: absolute;
+      bottom: 1px;
+      left: 50%;
+      transform: translate(-50%);
+    }
+  }
+
+  &_logo {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    img {
+      height: 35px;
+      width: 35px;
+      margin-right: 10px;
+      object-fit: cover;
+    }
+
+    h3 {
+      color: $color-3;
+    }
+  }
+}
